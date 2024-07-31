@@ -1,11 +1,10 @@
-import React from 'react';
 import styles from './styles/page.module.css';
 import Logo from '../public/icons/midway-logo.png';
 
 export default function Home() {
   return (
     <main>
-      {/* insert image tag here */}
+      {/* <img src={Logo} alt="Midway Logo" /> */}
 
       <div
         style={{
