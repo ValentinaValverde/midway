@@ -1,5 +1,7 @@
+/* General styling */
+
 :root {
-  /* these are our brand colors */
+  /* Brand colors */
   --vermillion: #e44201;
   --linen: #fffdee;
   --dusty-blue: #aab1c1;
@@ -8,6 +10,18 @@
 }
 
 body {
-  /* real-world example of how it's used */
+  /* real-world example of how var colors are used */
   background-color: var(--linen);
+}
+
+button {
+  background-color: var(--dark-chocolate);
+  padding: 10px 50px 10px 50px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
 }
