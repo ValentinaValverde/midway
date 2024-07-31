@@ -1,10 +1,13 @@
 import styles from './styles/page.module.css';
-import Logo from '../public/icons/midway-logo.png';
 
 export default function Home() {
   return (
     <main>
-      {/* <img src={Logo} alt="Midway Logo" /> */}
+      <img
+        src="/icons/midway-logo.png"
+        alt="Midway Logo"
+        style={{ width: 100, marginTop: 10 }}
+      />
 
       <div
         style={{
