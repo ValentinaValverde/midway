@@ -1,3 +1,3 @@
 # Welcome to Midway
 
-Some words about the project go here :)
+Some awesome words about the project go here :)
