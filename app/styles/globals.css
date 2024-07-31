@@ -1,0 +1,13 @@
+:root {
+  /* these are our brand colors */
+  --vermillion: #e44201;
+  --linen: #fffdee;
+  --dusty-blue: #aab1c1;
+  --fog: #9d9d9d;
+  --dark-chocolate: #403931;
+}
+
+body {
+  /* real-world example of how it's used */
+  background-color: var(--linen);
+}
