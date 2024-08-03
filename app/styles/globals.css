@@ -1,0 +1,27 @@
+/* General styling */
+
+:root {
+  /* Brand colors */
+  --vermillion: #e44201;
+  --linen: #fffdee;
+  --dusty-blue: #aab1c1;
+  --fog: #9d9d9d;
+  --dark-chocolate: #403931;
+}
+
+body {
+  /* real-world example of how var colors are used */
+  background-color: var(--linen);
+}
+
+button {
+  background-color: var(--dark-chocolate);
+  padding: 10px 50px 10px 50px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}

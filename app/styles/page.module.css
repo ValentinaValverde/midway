@@ -1,0 +1,26 @@
+/* Classnames go in this file */
+
+/* main styling */
+.primary_button {
+  background-color: var(--vermillion);
+}
+
+.continue_button {
+  background-color: var(--vermillion);
+  padding: 10px 100px 10px 100px;
+}
+
+/* other styling */
+.homepage_midway {
+  position: absolute;
+  font-size: 100px;
+  bottom: -50px;
+  left: 20px;
+}
+
+/* mobile media query */
+@media (max-width: 767px) {
+  .homepage_midway {
+    font-size: 75px;
+  }
+}
