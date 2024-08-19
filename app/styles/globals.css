@@ -4,7 +4,7 @@
 @font-face {
   font-family: 'ClassicalDiary';
   src: local('ClassicalDiary'),
-    url(../../public//fonts/ClassicalDiary-Regular\ Demo.ttf) format('truetype');
+    url(../../public/fonts/ClassicalDiary-Regular\ Demo.ttf) format('truetype');
 }
 
 :root {
