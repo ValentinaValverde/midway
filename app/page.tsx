@@ -29,7 +29,7 @@ export default function Home() {
         <button className={styles.primary_button}>Start</button>
       </div>
 
-      <p className={styles.homepage_midway}>Midway</p>
+      <h1 className={styles.homepage_midway}>Midway</h1>
     </main>
   );
 }

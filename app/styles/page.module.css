@@ -13,14 +13,16 @@
 /* other styling */
 .homepage_midway {
   position: absolute;
-  font-size: 100px;
-  bottom: -50px;
+  bottom: 0px;
   left: 20px;
+
+  font-size: clamp(4rem, 8vw + 2rem, 8rem);
 }
 
 /* mobile media query */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .homepage_midway {
-    font-size: 75px;
+    font-size: 100px;
+    bottom: -50px;
   }
-}
+} */

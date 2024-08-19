@@ -1,5 +1,11 @@
 /* General styling */
 
+@font-face {
+  font-family: 'ClassicalDiary';
+  src: local('ClassicalDiary'),
+    url(../../public//fonts/ClassicalDiary-Regular\ Demo.ttf) format('truetype');
+}
+
 :root {
   /* Brand colors */
   --vermillion: #e44201;
@@ -24,4 +30,8 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+h1 {
+  font-family: 'ClassicalDiary';
 }
