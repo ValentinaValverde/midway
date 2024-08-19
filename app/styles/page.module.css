@@ -3,6 +3,12 @@
 /* main styling */
 .primary_button {
   background-color: var(--vermillion);
+  border: solid 2px var(--vermillion);
+}
+
+.primary_button:hover {
+  background-color: transparent;
+  color: var(--vermillion);
 }
 
 .continue_button {
@@ -13,14 +19,12 @@
 /* other styling */
 .homepage_midway {
   position: absolute;
-  font-size: 100px;
-  bottom: -50px;
+  bottom: 0px;
   left: 20px;
+
+  font-size: clamp(4rem, 8vw + 2rem, 8rem);
 }
 
 /* mobile media query */
-@media (max-width: 767px) {
-  .homepage_midway {
-    font-size: 75px;
-  }
-}
+/* @media (max-width: 767px) {
+} */
