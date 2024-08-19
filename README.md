@@ -1,3 +1,3 @@
 # Welcome to Midway
 
-Whoop whoop words!
+Different words! Yippie!
