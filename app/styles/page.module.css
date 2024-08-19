@@ -3,6 +3,12 @@
 /* main styling */
 .primary_button {
   background-color: var(--vermillion);
+  border: solid 2px var(--vermillion);
+}
+
+.primary_button:hover {
+  background-color: transparent;
+  color: var(--vermillion);
 }
 
 .continue_button {
@@ -21,8 +27,5 @@
 
 /* mobile media query */
 /* @media (max-width: 767px) {
-  .homepage_midway {
-    font-size: 100px;
-    bottom: -50px;
-  }
+
 } */

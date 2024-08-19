@@ -1,12 +1,15 @@
 import styles from './styles/page.module.css';
+import Image from 'next/image';
 
 export default function Home() {
   return (
     <main>
-      <img
+      <Image
         src="/icons/midway-logo.png"
         alt="Midway Logo"
-        style={{ width: 100, marginTop: 10 }}
+        style={{ marginTop: 10 }}
+        width={100}
+        height={80}
       />
 
       <div
@@ -26,7 +29,9 @@ export default function Home() {
           you and your friends? Well, there’s <br />
           finally a way to figure it out!
         </p>
-        <button className={styles.primary_button}>Start</button>
+        <button className={styles.primary_button}>
+          <p>Start</p>
+        </button>
       </div>
 
       <h1 className={styles.homepage_midway}>Midway</h1>
